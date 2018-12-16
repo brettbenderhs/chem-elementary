@@ -10,20 +10,27 @@ html,body {
 .hero-body .container {
     max-width: 700px;
 }
+.hero-body .title {
+    color: hsl(192,17%,99%) !important;
+}
+
+.hero-body .subtitle {
+    color: hsl(192,17%,99%) !important;
+    padding-top: 2rem;
+    line-height: 1.5;
+}
 .features {
     padding: 5rem 0;
 }
-
 .box.cta {
     border-radius: 0;
     border-left: none;
     border-right: none;
 }
 .card-image-fa {
-    font-size: 8rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: #209cee;
+    font-size: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .card-content .content {
     font-size: 14px;
@@ -62,12 +69,7 @@ html,body {
 .is-shady:hover {
     box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 }
-/*adds font awesome stars*/
-footer li:before {
-    content: '\f1b2';
-    font-family: 'FontAwesome';
-    float: left;
-    margin-left: -1.5em;
-    color: #147efb;
-}
 
+.has-text-shadow {
+    text-shadow: 3px 6px #272634;
+}
